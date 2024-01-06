@@ -1,11 +1,98 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>City Explorer RPG</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bubblegum+Sans&family=Bungee+Spice&family=Fresca&family=Gurajada&family=Mouse+Memoirs&family=Poppins:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
 
-</body>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>CITY EXPLORER</h1>
+    <div id="board">
+      <!-- RESOURCES -->
+      <div class="resources">
+        <div class="energy">
+          <div class="symbol">
+            <img
+              src="https://www.svgrepo.com/show/506710/energy-bottle.svg"
+              alt=""
+            />
+          </div>
+          <p id="energy-text">100</p>
+        </div>
+
+        <div class="money">
+          <div class="symbol">
+            <img src="https://www.svgrepo.com/show/405002/coin.svg" alt="" />
+          </div>
+          <p id="money-text">200</p>
+        </div>
+        <div class="xp">
+          <div class="symbol">
+            <img src="https://www.svgrepo.com/show/434113/heart.svg" alt="" />
+          </div>
+          <p id="xp-text">20</p>
+        </div>
+      </div>
+
+      <div class="locations">
+        <!-- park -->
+        <div id="park">
+          <div class="image"></div>
+          <button id="park-btn" class="location-btn">Go to the park</button>
+          <div class="choices">
+            <button class="park-choice-1">choice 1</button>
+            <button class="park-choice-2">choice 2</button>
+            <button class="park-choice-3">choice 3</button>
+          </div>
+          <div class="textbox" id="park-text">welcome</div>
+        </div>
+
+        <!-- market -->
+        <div id="market">
+          <div class="image"></div>
+          <button id="market-btn" class="location-btn">Go to the market</button>
+          <div class="choices">
+            <button class="market-choice-1">choice 1</button>
+            <button class="market-choice-2">choice 2</button>
+            <button class="market-choice-3">choice 3</button>
+          </div>
+          <div class="textbox" id="market-text">welcome</div>
+        </div>
+
+        <!-- casino -->
+        <div id="casino">
+          <div class="image"></div>
+          <button id="casino-btn" class="location-btn">Go to the casino</button>
+          <div class="choices">
+            <button class="casino-choice-1">choice 1</button>
+            <button class="casino-choice-2">choice 2</button>
+            <button class="casino-choice-3">choice 3</button>
+          </div>
+          <div class="textbox" id="casino-text">welcome</div>
+        </div>
+
+        <!-- facility -->
+        <div id="facility">
+          <div class="image"></div>
+          <button id="facility-btn" class="location-btn"> Go to the facility</button>
+          <div class="choices">
+            <button class="facility-choice-1">choice 1</button>
+            <button class="facility-choice-2">choice 2</button>
+            <button class="facility-choice-3">choice 3</button>
+          </div>
+          <div class="textbox" id="facility-text">welcome</div>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
